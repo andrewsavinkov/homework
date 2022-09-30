@@ -36,5 +36,5 @@ int CountEvenNumbers (int[] arr)
 int[] newArray = GenerateRandomArray(3, 10);
 PrintArray(newArray);
 int sum = CountEvenNumbers(newArray);
-Console.WriteLine ($"количество четных чисел в массиве: {sum}");
+Console.WriteLine ($"количество чётных чисел в массиве: {sum}");
 
